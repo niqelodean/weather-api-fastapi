@@ -19,9 +19,14 @@ Returns:
 pip install fastapi uvicorn requests
 uvicorn weather_api:app --reload
 
-Visit: http://localhost:8000/weather?city=London
-
 ## Error Handling
 
 - City not found: returns error message
 - Network errors: caught and returned
+
+## Docker
+
+Build: docker build -t weather-api-fastapi .
+Run: docker run -p 8000:8000 weather-api-fastapi
+
+Visit: http://localhost:8000/weather?city=London
