@@ -1,4 +1,4 @@
-# weather-api-fastapi
+# Weather-api-fastapi
 A FastAPI weather service that fetches real-time weather data using wttr.in.
 
 ## Endpoints
