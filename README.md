@@ -18,6 +18,7 @@ Returns:
 ## Setup
 pip install fastapi uvicorn requests
 uvicorn weather_api:app --reload
+
 Visit: http://localhost:8000/weather?city=London
 
 ## Error Handling
