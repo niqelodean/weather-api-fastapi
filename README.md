@@ -27,6 +27,7 @@ uvicorn weather_api:app --reload
 ## Docker
 
 Build: docker build -t weather-api-fastapi .
+
 Run: docker run -p 8000:8000 weather-api-fastapi
 
 Visit: http://localhost:8000/weather?city=London
