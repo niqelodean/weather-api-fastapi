@@ -16,8 +16,9 @@ Returns:
 ```
 
 ## Setup
-pip install fastapi uvicorn requests
-uvicorn weather_api:app --reload
+1. pip install fastapi uvicorn requests
+
+2. uvicorn weather_api:app --reload
 
 ## Error Handling
 
